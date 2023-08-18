@@ -1,0 +1,23 @@
+version: '3'
+services:
+  web1:
+    build:
+      context: ./project1
+      dockerfile: dockerfile
+    ports:
+      - "8001:8001"
+  web2:
+    build:
+      context: ./project2
+      dockerfile: dockerfile
+    ports:
+      - "8002:8002"
+  nginx:
+    build:
+      context: ./nginx
+      dockerfile: dockerfile
+    ports:
+      - "8888:8888"
+    depends_on:
+      - web1
+      - web2
