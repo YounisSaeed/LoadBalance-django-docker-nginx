@@ -20,12 +20,13 @@ Prerequisites
 ## Steps
 <details>
 <summary><h3>1. Clone the Repository:</h3>
-<summary>
+
 
 ```
 git clone https://github.com/YounisSaeed/LoadBalance-django-docker-nginx.git
 cd LoadBalance-django-docker-nginx
 ```
+</summary>
 </details>
 2. Configure Django Applications:
 
