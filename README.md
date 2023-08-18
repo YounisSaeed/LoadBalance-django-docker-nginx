@@ -29,8 +29,8 @@ cd LoadBalance-django-docker-nginx
 ```
 2. Configure Django Applications:
 
-Customize each Django application in the app1/ and app2/ directories.
-Update app1/requirements.txt and app2/requirements.txt with your application's dependencies.
+Customize each Django application in the project1/ and project2/ directories.
+Update project1/requirements.txt and project2/requirements.txt with your application's dependencies.
 Configure Nginx Load Balancer:
 
 Modify the nginx/nginx.conf configuration to suit your project's needs.
