@@ -21,33 +21,39 @@ Prerequisites
 
 <details>
 <summary><h3>1. Clone the Repository:</h3></summary>
-```
-git clone https://github.com/YounisSaeed/LoadBalance-django-docker-nginx.git
-cd LoadBalance-django-docker-nginx
-```
+
+- git clone https://github.com/YounisSaeed/LoadBalance-django-docker-nginx.git
+- cd LoadBalance-django-docker-nginx
+
 </details>
 
-2. Configure Django Applications:
+<details>
+<summary><h3>2. Configure Django Applications:</h3></summary>
 
 Customize each Django application in the project1/ and project2/ directories.
 Update project1/requirements.txt and project2/requirements.txt with your application's dependencies.
-Configure Nginx Load Balancer:
+</details>
+<details>
+<summary><h3>3. Configure Nginx Load Balancer:</h3></summary>
 
 Modify the nginx/nginx.conf configuration to suit your project's needs.
-3. Build and Run Containers:
+</details>
+<details>
+<summary><h3>4. Build and Run Containers:</h3></summary>
+
 
 Run the following command to build and start the containers:
 
-```
-docker-compose up --build -d
+- docker-compose up --build -d
 
-```
-4. Access the Applications:
+</details>
+<details>
+<summary><h3>5. Access the Applications:</h3></summary>
 
 Application 1: Access http://localhost:8001
 Application 2: Access http://localhost:8002
 The Nginx load balancer is accessible at http://localhost:8888.
-
+</details>
 
 
 
