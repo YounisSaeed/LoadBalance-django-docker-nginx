@@ -18,16 +18,15 @@ This project provides a comprehensive example of how to set up multiple Django a
 Prerequisites
 - Docker and Docker Compose are installed on your system.
 ## Steps
+
 <details>
-<summary><h3>1. Clone the Repository:</h3>
-
-
+<summary><h3>1. Clone the Repository:</h3></summary>
 ```
 git clone https://github.com/YounisSaeed/LoadBalance-django-docker-nginx.git
 cd LoadBalance-django-docker-nginx
 ```
-</summary>
 </details>
+
 2. Configure Django Applications:
 
 Customize each Django application in the project1/ and project2/ directories.
