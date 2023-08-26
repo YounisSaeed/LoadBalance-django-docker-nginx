@@ -12,6 +12,12 @@ services:
       dockerfile: dockerfile
     ports:
       - "8002:8002"
+  web3:
+    build:
+      context: ./project3
+      dockerfile: dockerfile
+    ports:
+      - "8003:8003"
   nginx:
     build:
       context: ./nginx
@@ -21,3 +27,4 @@ services:
     depends_on:
       - web1
       - web2
+      - web3
