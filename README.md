@@ -1,5 +1,5 @@
 ## Django Multi-Application Project with Docker and Nginx Load Balancing
-
+## with Round Robin Algorithm
 ### Objective
 The objective of this project is to demonstrate how to create a multi-application Django project using Docker Compose and set up Nginx for load balancing between the applications. By containerizing the Django applications and utilizing Nginx as a load balancer, this project showcases a scalable and efficient way to manage multiple applications and distribute incoming traffic.
 
